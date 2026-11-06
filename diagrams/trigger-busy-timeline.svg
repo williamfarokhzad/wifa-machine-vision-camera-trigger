@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="490" viewBox="0 0 1000 490" role="img" aria-labelledby="title desc">
+<title id="title">Camera trigger timeline</title><desc id="desc">P1 starts a 15 ms busy interval at zero. P2 is missed at 12 ms. P3 starts the next interval at the exact 15 ms boundary.</desc>
+<rect width="1000" height="490" rx="32" fill="#101b2d"/>
+<g font-family="DejaVu Sans" fill="#f4f7fe">
+<text x="56" y="64" font-size="37" font-weight="700">Camera trigger timeline</text>
+<text x="56" y="112" font-size="25" fill="#b9cde9">One accepted request blocks the next 15 ms.</text>
+<rect x="82" y="244" width="418" height="65" rx="8" fill="#23496b"/>
+<rect x="500" y="244" width="418" height="65" rx="8" fill="#29496e"/>
+<path d="M82 310H918M82 301v20M500 301v20M918 301v20" fill="none" stroke="#a9bed9" stroke-width="3"/>
+<path d="M82 200v44M500 200v44" fill="none" stroke="#6be0b4" stroke-width="5"/>
+<path d="M416 207v37" fill="none" stroke="#ffc580" stroke-width="5"/>
+<circle cx="82" cy="198" r="8" fill="#6be0b4"/><circle cx="500" cy="198" r="8" fill="#6be0b4"/>
+<path d="M405 198l22 22m0-22l-22 22" stroke="#ffc580" stroke-width="5"/>
+<text x="82" y="177" font-size="24" fill="#6be0b4">P1 accepted</text>
+<text x="275" y="177" font-size="24" fill="#ffc580">P2 missed</text>
+<text x="518" y="203" font-size="24" fill="#6be0b4">P3 accepted</text>
+<text x="120" y="285" font-size="25">Busy after P1</text><text x="542" y="285" font-size="25">Busy after P3</text>
+<text x="82" y="355" text-anchor="middle" font-size="24">0</text>
+<text x="416" y="355" text-anchor="middle" font-size="24">12</text>
+<text x="500" y="355" text-anchor="middle" font-size="24">15</text>
+<text x="918" y="355" text-anchor="end" font-size="24">30 ms</text>
+<text x="56" y="435" font-size="26" fill="#b9cde9">P2 never enters a queue. The next ready time stays at 15 ms.</text>
+</g></svg>

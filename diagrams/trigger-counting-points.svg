@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="410" viewBox="0 0 1000 410" role="img" aria-labelledby="title desc">
+<title id="title">Three counting points</title><desc id="desc">Count requests, accepted triggers, and delivered frames separately. The offline lab stops after trigger acceptance.</desc>
+<rect width="1000" height="410" rx="32" fill="#101b2d"/>
+<g font-family="DejaVu Sans" fill="#f4f7fe">
+<text x="52" y="67" font-size="37" font-weight="700">Count at three different points</text>
+<rect x="51" y="125" width="260" height="143" rx="14" fill="#23496b"/>
+<rect x="370" y="125" width="260" height="143" rx="14" fill="#23496b"/>
+<rect x="689" y="125" width="260" height="143" rx="14" fill="#25324a" stroke="#b9cde9" stroke-dasharray="7 7" stroke-width="2"/>
+<path d="M319 197h42m-12-10 12 10-12 10M638 197h42m-12-10 12 10-12 10" fill="none" stroke="#6be0b4" stroke-width="4"/>
+<text x="76" y="177" font-size="29" font-weight="700">1. Requests</text><text x="76" y="224" font-size="23">Part sensor event</text>
+<text x="394" y="177" font-size="29" font-weight="700">2. Accepted</text><text x="394" y="224" font-size="23">Camera is ready</text>
+<text x="711" y="177" font-size="29" font-weight="700">3. Delivered</text><text x="711" y="224" font-size="23">Frame at the host</text>
+<text x="52" y="343" font-size="26" fill="#b9cde9">This lab simulates points 1 and 2. It does not create images.</text>
+</g></svg>
